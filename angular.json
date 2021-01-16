@@ -167,6 +167,9 @@
           "configurations": {
             "production": {}
           }
+        },
+        "deploy": {
+          "builder": "@zeit/ng-deploy:deploy"
         }
       }
     }
