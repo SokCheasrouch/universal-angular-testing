@@ -7,7 +7,7 @@
     "builds": [
         {
             "src": "dist/server/main.js",
-            "use": "@now/ng build --prod && ng run angular.io-example:server:production"
+            "use": "ng build --prod && ng run angular.io-example:server:production"
         }
     ]
     
